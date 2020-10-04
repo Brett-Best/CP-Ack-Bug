@@ -1,0 +1,6 @@
+framework module Pods_CP_Ack_Failure_watchOS {
+  umbrella header "Pods-CP-Ack-Failure-watchOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

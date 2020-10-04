@@ -13,6 +13,24 @@
 		0B27573F252954CC008758FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B27573E252954CC008758FB /* Preview Assets.xcassets */; };
 		0B27574A252954CC008758FB /* CP_Ack_FailureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B275749252954CC008758FB /* CP_Ack_FailureTests.swift */; };
 		0B275755252954CC008758FB /* CP_Ack_FailureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B275754252954CC008758FB /* CP_Ack_FailureUITests.swift */; };
+		0B27576A252954FC008758FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B275769252954FC008758FB /* Assets.xcassets */; };
+		0B275771252954FC008758FB /* CP-Ack-Failure-watchOS Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0B275770252954FC008758FB /* CP-Ack-Failure-watchOS Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0B275776252954FC008758FB /* CP_Ack_FailureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B275775252954FC008758FB /* CP_Ack_FailureApp.swift */; };
+		0B275778252954FC008758FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B275777252954FC008758FB /* ContentView.swift */; };
+		0B27577A252954FC008758FB /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B275779252954FC008758FB /* NotificationController.swift */; };
+		0B27577C252954FC008758FB /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B27577B252954FC008758FB /* NotificationView.swift */; };
+		0B27577E252954FC008758FB /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B27577D252954FC008758FB /* ComplicationController.swift */; };
+		0B275780252954FD008758FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B27577F252954FD008758FB /* Assets.xcassets */; };
+		0B275783252954FD008758FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B275782252954FD008758FB /* Preview Assets.xcassets */; };
+		0B275788252954FD008758FB /* CP-Ack-Failure-watchOS.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0B275767252954FB008758FB /* CP-Ack-Failure-watchOS.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0B275797252955E3008758FB /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0B275796252955E3008758FB /* Settings.bundle */; };
+		0E0139872C3724826196DFF3 /* Pods_CP_Ack_Failure_watchOS_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42205156112B4E3B73C2CB12 /* Pods_CP_Ack_Failure_watchOS_Extension.framework */; };
+		0F158AECC6E0D3AE2FD2F6C3 /* Pods_CP_Ack_Failure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D76DFE005493825C4F0CDA /* Pods_CP_Ack_Failure.framework */; };
+		189937CBC48C007124F1DE8E /* Pods-CP-Ack-Failure-settings-metadata.plist in Resources */ = {isa = PBXBuildFile; fileRef = 915320633F58F3EDA5993D93 /* Pods-CP-Ack-Failure-settings-metadata.plist */; };
+		1921DABF271BF9DCA2B88220 /* Pods-CP-Ack-Failure-metadata.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8776D477D7BE231646BEBF63 /* Pods-CP-Ack-Failure-metadata.plist */; };
+		1AD1CEC1154D1DE10094968D /* Pods_CP_Ack_FailureTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB5DE152B7D08EAF8F4E51F1 /* Pods_CP_Ack_FailureTests.framework */; };
+		AD1ECFB68B7B9AF9F553DC55 /* Pods_CP_Ack_Failure_watchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D26C0CE8B0CC0819146A8C7 /* Pods_CP_Ack_Failure_watchOS.framework */; };
+		C894F08A38A5CEA5C5042D9E /* Pods_CP_Ack_Failure_CP_Ack_FailureUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE03680770D871114A2008F /* Pods_CP_Ack_Failure_CP_Ack_FailureUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +48,46 @@
 			remoteGlobalIDString = 0B275733252954CA008758FB;
 			remoteInfo = "CP-Ack-Failure";
 		};
+		0B275772252954FC008758FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B27572C252954CA008758FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B27576F252954FC008758FB;
+			remoteInfo = "CP-Ack-Failure-watchOS Extension";
+		};
+		0B275786252954FD008758FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B27572C252954CA008758FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B275766252954FB008758FB;
+			remoteInfo = "CP-Ack-Failure-watchOS";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0B27578C252954FD008758FB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0B275771252954FC008758FB /* CP-Ack-Failure-watchOS Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B275790252954FD008758FB /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				0B275788252954FD008758FB /* CP-Ack-Failure-watchOS.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0B275734252954CA008758FB /* CP-Ack-Failure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CP-Ack-Failure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,6 +102,37 @@
 		0B275750252954CC008758FB /* CP-Ack-FailureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CP-Ack-FailureUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B275754252954CC008758FB /* CP_Ack_FailureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CP_Ack_FailureUITests.swift; sourceTree = "<group>"; };
 		0B275756252954CC008758FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B275767252954FB008758FB /* CP-Ack-Failure-watchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CP-Ack-Failure-watchOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B275769252954FC008758FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B27576B252954FC008758FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B275770252954FC008758FB /* CP-Ack-Failure-watchOS Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CP-Ack-Failure-watchOS Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B275775252954FC008758FB /* CP_Ack_FailureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CP_Ack_FailureApp.swift; sourceTree = "<group>"; };
+		0B275777252954FC008758FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0B275779252954FC008758FB /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		0B27577B252954FC008758FB /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		0B27577D252954FC008758FB /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		0B27577F252954FD008758FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B275782252954FD008758FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0B275784252954FD008758FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B275785252954FD008758FB /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		0B275796252955E3008758FB /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		139D935125E6C4C837468613 /* Pods-CP-Ack-FailureTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CP-Ack-FailureTests.release.xcconfig"; path = "Target Support Files/Pods-CP-Ack-FailureTests/Pods-CP-Ack-FailureTests.release.xcconfig"; sourceTree = "<group>"; };
+		2D26C0CE8B0CC0819146A8C7 /* Pods_CP_Ack_Failure_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CP_Ack_Failure_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3104B06B3053DC37829C81B0 /* Pods-CP-Ack-Failure-watchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CP-Ack-Failure-watchOS.release.xcconfig"; path = "Target Support Files/Pods-CP-Ack-Failure-watchOS/Pods-CP-Ack-Failure-watchOS.release.xcconfig"; sourceTree = "<group>"; };
+		318162997F9CAA7CC883CF39 /* Pods-CP-Ack-Failure.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CP-Ack-Failure.release.xcconfig"; path = "Target Support Files/Pods-CP-Ack-Failure/Pods-CP-Ack-Failure.release.xcconfig"; sourceTree = "<group>"; };
+		42205156112B4E3B73C2CB12 /* Pods_CP_Ack_Failure_watchOS_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CP_Ack_Failure_watchOS_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51083DCBB0EF302945AFA03C /* Pods-CP-Ack-Failure.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CP-Ack-Failure.debug.xcconfig"; path = "Target Support Files/Pods-CP-Ack-Failure/Pods-CP-Ack-Failure.debug.xcconfig"; sourceTree = "<group>"; };
+		5B1500976BF90ED962CF07C7 /* Pods-CP-Ack-Failure-CP-Ack-FailureUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CP-Ack-Failure-CP-Ack-FailureUITests.debug.xcconfig"; path = "Target Support Files/Pods-CP-Ack-Failure-CP-Ack-FailureUITests/Pods-CP-Ack-Failure-CP-Ack-FailureUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8776D477D7BE231646BEBF63 /* Pods-CP-Ack-Failure-metadata.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CP-Ack-Failure-metadata.plist"; sourceTree = "<group>"; };
+		915320633F58F3EDA5993D93 /* Pods-CP-Ack-Failure-settings-metadata.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "Pods-CP-Ack-Failure-settings-metadata.plist"; path = "../CP-Ack-Failure/Settings.bundle/Pods-CP-Ack-Failure-settings-metadata.plist"; sourceTree = "<group>"; };
+		AB5DE152B7D08EAF8F4E51F1 /* Pods_CP_Ack_FailureTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CP_Ack_FailureTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B823EC6BCB9B982A12AB9736 /* Pods-CP-Ack-FailureTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CP-Ack-FailureTests.debug.xcconfig"; path = "Target Support Files/Pods-CP-Ack-FailureTests/Pods-CP-Ack-FailureTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CFB3AC1ACB7E26DF8D787A4B /* Pods-CP-Ack-Failure-watchOS Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CP-Ack-Failure-watchOS Extension.release.xcconfig"; path = "Target Support Files/Pods-CP-Ack-Failure-watchOS Extension/Pods-CP-Ack-Failure-watchOS Extension.release.xcconfig"; sourceTree = "<group>"; };
+		D36A12C0BD89F7A321D8DD93 /* Pods-CP-Ack-Failure-watchOS Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CP-Ack-Failure-watchOS Extension.debug.xcconfig"; path = "Target Support Files/Pods-CP-Ack-Failure-watchOS Extension/Pods-CP-Ack-Failure-watchOS Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		E1ACB2ABBA878957F09B700E /* Pods-CP-Ack-Failure-CP-Ack-FailureUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CP-Ack-Failure-CP-Ack-FailureUITests.release.xcconfig"; path = "Target Support Files/Pods-CP-Ack-Failure-CP-Ack-FailureUITests/Pods-CP-Ack-Failure-CP-Ack-FailureUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F2D76DFE005493825C4F0CDA /* Pods_CP_Ack_Failure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CP_Ack_Failure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7885B044D006255CA6462E6 /* Pods-CP-Ack-Failure-watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CP-Ack-Failure-watchOS.debug.xcconfig"; path = "Target Support Files/Pods-CP-Ack-Failure-watchOS/Pods-CP-Ack-Failure-watchOS.debug.xcconfig"; sourceTree = "<group>"; };
+		FCE03680770D871114A2008F /* Pods_CP_Ack_Failure_CP_Ack_FailureUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CP_Ack_Failure_CP_Ack_FailureUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +140,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F158AECC6E0D3AE2FD2F6C3 /* Pods_CP_Ack_Failure.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +148,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AD1CEC1154D1DE10094968D /* Pods_CP_Ack_FailureTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,19 +156,60 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C894F08A38A5CEA5C5042D9E /* Pods_CP_Ack_Failure_CP_Ack_FailureUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B27576D252954FC008758FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E0139872C3724826196DFF3 /* Pods_CP_Ack_Failure_watchOS_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6848DDF60CC797703AFB1AF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1ECFB68B7B9AF9F553DC55 /* Pods_CP_Ack_Failure_watchOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02C08295C60C87912353FF02 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51083DCBB0EF302945AFA03C /* Pods-CP-Ack-Failure.debug.xcconfig */,
+				318162997F9CAA7CC883CF39 /* Pods-CP-Ack-Failure.release.xcconfig */,
+				5B1500976BF90ED962CF07C7 /* Pods-CP-Ack-Failure-CP-Ack-FailureUITests.debug.xcconfig */,
+				E1ACB2ABBA878957F09B700E /* Pods-CP-Ack-Failure-CP-Ack-FailureUITests.release.xcconfig */,
+				F7885B044D006255CA6462E6 /* Pods-CP-Ack-Failure-watchOS.debug.xcconfig */,
+				3104B06B3053DC37829C81B0 /* Pods-CP-Ack-Failure-watchOS.release.xcconfig */,
+				D36A12C0BD89F7A321D8DD93 /* Pods-CP-Ack-Failure-watchOS Extension.debug.xcconfig */,
+				CFB3AC1ACB7E26DF8D787A4B /* Pods-CP-Ack-Failure-watchOS Extension.release.xcconfig */,
+				B823EC6BCB9B982A12AB9736 /* Pods-CP-Ack-FailureTests.debug.xcconfig */,
+				139D935125E6C4C837468613 /* Pods-CP-Ack-FailureTests.release.xcconfig */,
+				8776D477D7BE231646BEBF63 /* Pods-CP-Ack-Failure-metadata.plist */,
+				915320633F58F3EDA5993D93 /* Pods-CP-Ack-Failure-settings-metadata.plist */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		0B27572B252954CA008758FB = {
 			isa = PBXGroup;
 			children = (
 				0B275736252954CA008758FB /* CP-Ack-Failure */,
 				0B275748252954CC008758FB /* CP-Ack-FailureTests */,
 				0B275753252954CC008758FB /* CP-Ack-FailureUITests */,
+				0B275768252954FB008758FB /* CP-Ack-Failure-watchOS */,
+				0B275774252954FC008758FB /* CP-Ack-Failure-watchOS Extension */,
 				0B275735252954CA008758FB /* Products */,
+				02C08295C60C87912353FF02 /* Pods */,
+				F4EA49183D1052BC1EA8D283 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,6 +219,8 @@
 				0B275734252954CA008758FB /* CP-Ack-Failure.app */,
 				0B275745252954CC008758FB /* CP-Ack-FailureTests.xctest */,
 				0B275750252954CC008758FB /* CP-Ack-FailureUITests.xctest */,
+				0B275767252954FB008758FB /* CP-Ack-Failure-watchOS.app */,
+				0B275770252954FC008758FB /* CP-Ack-Failure-watchOS Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,6 +233,7 @@
 				0B27573B252954CC008758FB /* Assets.xcassets */,
 				0B275740252954CC008758FB /* Info.plist */,
 				0B27573D252954CC008758FB /* Preview Content */,
+				0B275796252955E3008758FB /* Settings.bundle */,
 			);
 			path = "CP-Ack-Failure";
 			sourceTree = "<group>";
@@ -130,6 +264,51 @@
 			path = "CP-Ack-FailureUITests";
 			sourceTree = "<group>";
 		};
+		0B275768252954FB008758FB /* CP-Ack-Failure-watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				0B275769252954FC008758FB /* Assets.xcassets */,
+				0B27576B252954FC008758FB /* Info.plist */,
+			);
+			path = "CP-Ack-Failure-watchOS";
+			sourceTree = "<group>";
+		};
+		0B275774252954FC008758FB /* CP-Ack-Failure-watchOS Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0B275775252954FC008758FB /* CP_Ack_FailureApp.swift */,
+				0B275777252954FC008758FB /* ContentView.swift */,
+				0B275779252954FC008758FB /* NotificationController.swift */,
+				0B27577B252954FC008758FB /* NotificationView.swift */,
+				0B27577D252954FC008758FB /* ComplicationController.swift */,
+				0B27577F252954FD008758FB /* Assets.xcassets */,
+				0B275784252954FD008758FB /* Info.plist */,
+				0B275785252954FD008758FB /* PushNotificationPayload.apns */,
+				0B275781252954FD008758FB /* Preview Content */,
+			);
+			path = "CP-Ack-Failure-watchOS Extension";
+			sourceTree = "<group>";
+		};
+		0B275781252954FD008758FB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0B275782252954FD008758FB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F4EA49183D1052BC1EA8D283 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2D76DFE005493825C4F0CDA /* Pods_CP_Ack_Failure.framework */,
+				FCE03680770D871114A2008F /* Pods_CP_Ack_Failure_CP_Ack_FailureUITests.framework */,
+				2D26C0CE8B0CC0819146A8C7 /* Pods_CP_Ack_Failure_watchOS.framework */,
+				42205156112B4E3B73C2CB12 /* Pods_CP_Ack_Failure_watchOS_Extension.framework */,
+				AB5DE152B7D08EAF8F4E51F1 /* Pods_CP_Ack_FailureTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,13 +316,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B275759252954CC008758FB /* Build configuration list for PBXNativeTarget "CP-Ack-Failure" */;
 			buildPhases = (
+				DB5828FE60A8D2EBC78F467D /* [CP] Check Pods Manifest.lock */,
 				0B275730252954CA008758FB /* Sources */,
 				0B275731252954CA008758FB /* Frameworks */,
 				0B275732252954CA008758FB /* Resources */,
+				0B275790252954FD008758FB /* Embed Watch Content */,
+				F8D5C627FFAE4D9B26AD2C56 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0B275787252954FD008758FB /* PBXTargetDependency */,
 			);
 			name = "CP-Ack-Failure";
 			productName = "CP-Ack-Failure";
@@ -154,6 +337,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B27575C252954CC008758FB /* Build configuration list for PBXNativeTarget "CP-Ack-FailureTests" */;
 			buildPhases = (
+				FBAF75AAE0D6D3BD1DBDEDC9 /* [CP] Check Pods Manifest.lock */,
 				0B275741252954CC008758FB /* Sources */,
 				0B275742252954CC008758FB /* Frameworks */,
 				0B275743252954CC008758FB /* Resources */,
@@ -172,9 +356,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B27575F252954CC008758FB /* Build configuration list for PBXNativeTarget "CP-Ack-FailureUITests" */;
 			buildPhases = (
+				F7C50A134967179D67865C6C /* [CP] Check Pods Manifest.lock */,
 				0B27574C252954CC008758FB /* Sources */,
 				0B27574D252954CC008758FB /* Frameworks */,
 				0B27574E252954CC008758FB /* Resources */,
+				7B57204D3CFF9124E598C633 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,6 +371,44 @@
 			productName = "CP-Ack-FailureUITests";
 			productReference = 0B275750252954CC008758FB /* CP-Ack-FailureUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		0B275766252954FB008758FB /* CP-Ack-Failure-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B27578D252954FD008758FB /* Build configuration list for PBXNativeTarget "CP-Ack-Failure-watchOS" */;
+			buildPhases = (
+				4C45A408CB75F1101841B5C8 /* [CP] Check Pods Manifest.lock */,
+				0B275765252954FB008758FB /* Resources */,
+				0B27578C252954FD008758FB /* Embed App Extensions */,
+				6848DDF60CC797703AFB1AF5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B275773252954FC008758FB /* PBXTargetDependency */,
+			);
+			name = "CP-Ack-Failure-watchOS";
+			productName = "CP-Ack-Failure-watchOS";
+			productReference = 0B275767252954FB008758FB /* CP-Ack-Failure-watchOS.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		0B27576F252954FC008758FB /* CP-Ack-Failure-watchOS Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B275789252954FD008758FB /* Build configuration list for PBXNativeTarget "CP-Ack-Failure-watchOS Extension" */;
+			buildPhases = (
+				E6E3587C750E6876F1D9FF5A /* [CP] Check Pods Manifest.lock */,
+				0B27576C252954FC008758FB /* Sources */,
+				0B27576D252954FC008758FB /* Frameworks */,
+				0B27576E252954FC008758FB /* Resources */,
+				97B2272CAC76E97AE14DFBB7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CP-Ack-Failure-watchOS Extension";
+			productName = "CP-Ack-Failure-watchOS Extension";
+			productReference = 0B275770252954FC008758FB /* CP-Ack-Failure-watchOS Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -206,6 +430,12 @@
 						CreatedOnToolsVersion = 12.2;
 						TestTargetID = 0B275733252954CA008758FB;
 					};
+					0B275766252954FB008758FB = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					0B27576F252954FC008758FB = {
+						CreatedOnToolsVersion = 12.2;
+					};
 				};
 			};
 			buildConfigurationList = 0B27572F252954CA008758FB /* Build configuration list for PBXProject "CP-Ack-Failure" */;
@@ -224,6 +454,8 @@
 				0B275733252954CA008758FB /* CP-Ack-Failure */,
 				0B275744252954CC008758FB /* CP-Ack-FailureTests */,
 				0B27574F252954CC008758FB /* CP-Ack-FailureUITests */,
+				0B275766252954FB008758FB /* CP-Ack-Failure-watchOS */,
+				0B27576F252954FC008758FB /* CP-Ack-Failure-watchOS Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -234,7 +466,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B27573F252954CC008758FB /* Preview Assets.xcassets in Resources */,
+				0B275797252955E3008758FB /* Settings.bundle in Resources */,
 				0B27573C252954CC008758FB /* Assets.xcassets in Resources */,
+				1921DABF271BF9DCA2B88220 /* Pods-CP-Ack-Failure-metadata.plist in Resources */,
+				189937CBC48C007124F1DE8E /* Pods-CP-Ack-Failure-settings-metadata.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,7 +487,188 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0B275765252954FB008758FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B27576A252954FC008758FB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B27576E252954FC008758FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B275783252954FD008758FB /* Preview Assets.xcassets in Resources */,
+				0B275780252954FD008758FB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C45A408CB75F1101841B5C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CP-Ack-Failure-watchOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B57204D3CFF9124E598C633 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CP-Ack-Failure-CP-Ack-FailureUITests/Pods-CP-Ack-Failure-CP-Ack-FailureUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CP-Ack-Failure-CP-Ack-FailureUITests/Pods-CP-Ack-Failure-CP-Ack-FailureUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CP-Ack-Failure-CP-Ack-FailureUITests/Pods-CP-Ack-Failure-CP-Ack-FailureUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97B2272CAC76E97AE14DFBB7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CP-Ack-Failure-watchOS Extension/Pods-CP-Ack-Failure-watchOS Extension-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CP-Ack-Failure-watchOS Extension/Pods-CP-Ack-Failure-watchOS Extension-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CP-Ack-Failure-watchOS Extension/Pods-CP-Ack-Failure-watchOS Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB5828FE60A8D2EBC78F467D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CP-Ack-Failure-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6E3587C750E6876F1D9FF5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CP-Ack-Failure-watchOS Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7C50A134967179D67865C6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CP-Ack-Failure-CP-Ack-FailureUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8D5C627FFAE4D9B26AD2C56 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CP-Ack-Failure/Pods-CP-Ack-Failure-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CP-Ack-Failure/Pods-CP-Ack-Failure-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CP-Ack-Failure/Pods-CP-Ack-Failure-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBAF75AAE0D6D3BD1DBDEDC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CP-Ack-FailureTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0B275730252954CA008758FB /* Sources */ = {
@@ -280,6 +696,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0B27576C252954FC008758FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B27577A252954FC008758FB /* NotificationController.swift in Sources */,
+				0B275778252954FC008758FB /* ContentView.swift in Sources */,
+				0B27577E252954FC008758FB /* ComplicationController.swift in Sources */,
+				0B275776252954FC008758FB /* CP_Ack_FailureApp.swift in Sources */,
+				0B27577C252954FC008758FB /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -292,6 +720,16 @@
 			isa = PBXTargetDependency;
 			target = 0B275733252954CA008758FB /* CP-Ack-Failure */;
 			targetProxy = 0B275751252954CC008758FB /* PBXContainerItemProxy */;
+		};
+		0B275773252954FC008758FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B27576F252954FC008758FB /* CP-Ack-Failure-watchOS Extension */;
+			targetProxy = 0B275772252954FC008758FB /* PBXContainerItemProxy */;
+		};
+		0B275787252954FD008758FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B275766252954FB008758FB /* CP-Ack-Failure-watchOS */;
+			targetProxy = 0B275786252954FD008758FB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -414,6 +852,7 @@
 		};
 		0B27575A252954CC008758FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51083DCBB0EF302945AFA03C /* Pods-CP-Ack-Failure.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -435,6 +874,7 @@
 		};
 		0B27575B252954CC008758FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 318162997F9CAA7CC883CF39 /* Pods-CP-Ack-Failure.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +896,7 @@
 		};
 		0B27575D252954CC008758FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B823EC6BCB9B982A12AB9736 /* Pods-CP-Ack-FailureTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -477,6 +918,7 @@
 		};
 		0B27575E252954CC008758FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 139D935125E6C4C837468613 /* Pods-CP-Ack-FailureTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -498,6 +940,7 @@
 		};
 		0B275760252954CC008758FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B1500976BF90ED962CF07C7 /* Pods-CP-Ack-Failure-CP-Ack-FailureUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -517,6 +960,7 @@
 		};
 		0B275761252954CC008758FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1ACB2ABBA878957F09B700E /* Pods-CP-Ack-Failure-CP-Ack-FailureUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +975,94 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "CP-Ack-Failure";
+			};
+			name = Release;
+		};
+		0B27578A252954FD008758FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D36A12C0BD89F7A321D8DD93 /* Pods-CP-Ack-Failure-watchOS Extension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CP-Ack-Failure-watchOS Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "CP-Ack-Failure-watchOS Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.testapp.CP-Ack-Failure.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Debug;
+		};
+		0B27578B252954FD008758FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFB3AC1ACB7E26DF8D787A4B /* Pods-CP-Ack-Failure-watchOS Extension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CP-Ack-Failure-watchOS Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "CP-Ack-Failure-watchOS Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.testapp.CP-Ack-Failure.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Release;
+		};
+		0B27578E252954FD008758FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7885B044D006255CA6462E6 /* Pods-CP-Ack-Failure-watchOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = CP_Ack_Failure_watchOS_Extension;
+				INFOPLIST_FILE = "CP-Ack-Failure-watchOS/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.testapp.CP-Ack-Failure.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
+			};
+			name = Debug;
+		};
+		0B27578F252954FD008758FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3104B06B3053DC37829C81B0 /* Pods-CP-Ack-Failure-watchOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = CP_Ack_Failure_watchOS_Extension;
+				INFOPLIST_FILE = "CP-Ack-Failure-watchOS/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.testapp.CP-Ack-Failure.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.1;
 			};
 			name = Release;
 		};
@@ -569,6 +1101,24 @@
 			buildConfigurations = (
 				0B275760252954CC008758FB /* Debug */,
 				0B275761252954CC008758FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B275789252954FD008758FB /* Build configuration list for PBXNativeTarget "CP-Ack-Failure-watchOS Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B27578A252954FD008758FB /* Debug */,
+				0B27578B252954FD008758FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B27578D252954FD008758FB /* Build configuration list for PBXNativeTarget "CP-Ack-Failure-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B27578E252954FD008758FB /* Debug */,
+				0B27578F252954FD008758FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
