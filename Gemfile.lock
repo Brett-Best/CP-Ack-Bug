@@ -1,10 +1,9 @@
 GIT
-  remote: https://github.com/Brett-Best/cocoapods-acknowledgements.git
-  revision: da66ba8639283dbce0fe5d83982a21ba02c0fa6b
+  remote: https://github.com/Cocoapods/cocoapods-acknowledgements.git
+  revision: f030eaa0b671b86a52ac4d239e23388acfea70db
   branch: master
   specs:
     cocoapods-acknowledgements (1.2.0)
-      activesupport (~> 5.0)
       cocoapods
       redcarpet (~> 3.3)
       xcodeproj
